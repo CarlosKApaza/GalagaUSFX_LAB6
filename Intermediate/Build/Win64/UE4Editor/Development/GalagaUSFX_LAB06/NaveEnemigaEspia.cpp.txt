@@ -1,0 +1,5 @@
+C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\Definitions.GalagaUSFX_LAB06.h
+C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Source\GalagaUSFX_LAB06\NaveEnemigaEspia.h
+C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Source\GalagaUSFX_LAB06\NaveEnemiga.h
+C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\NaveEnemiga.generated.h
+C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\NaveEnemigaEspia.generated.h

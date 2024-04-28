@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GalagaUSFX_LAB06.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{4B4C0C5B-8B56-42D4-B841-BCF53B3EAB5A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GalagaUSFX_LAB06.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GalagaUSFX_LAB06Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{0DB90605-DA37-4906-95AC-5CF2A341E586}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GalagaUSFX_LAB06">
+      <UniqueIdentifier>{F392DDE1-4469-430D-848E-2B164CD8B39B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GalagaUSFX_LAB06\CreadorNaves.cpp">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalagaUSFX_LAB06\CreadorNaves.h">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalagaUSFX_LAB06\CreadorNavesAcuaticas.cpp">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalagaUSFX_LAB06\CreadorNavesAcuaticas.h">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalagaUSFX_LAB06\CreadorNavesAereas.cpp">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalagaUSFX_LAB06\CreadorNavesAereas.h">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalagaUSFX_LAB06\CreadorNavesEnemigas.cpp">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalagaUSFX_LAB06\CreadorNavesEnemigas.h">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalagaUSFX_LAB06\CreadorNavesTerrestres.cpp">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalagaUSFX_LAB06\CreadorNavesTerrestres.h">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\GalagaUSFX_LAB06\GalagaUSFX_LAB06.Build.cs">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GalagaUSFX_LAB06\GalagaUSFX_LAB06.cpp">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalagaUSFX_LAB06\GalagaUSFX_LAB06.h">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalagaUSFX_LAB06\GalagaUSFX_LAB06GameMode.cpp">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalagaUSFX_LAB06\GalagaUSFX_LAB06GameMode.h">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalagaUSFX_LAB06\GalagaUSFX_LAB06Pawn.cpp">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalagaUSFX_LAB06\GalagaUSFX_LAB06Pawn.h">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalagaUSFX_LAB06\GalagaUSFX_LAB06Projectile.cpp">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalagaUSFX_LAB06\GalagaUSFX_LAB06Projectile.h">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalagaUSFX_LAB06\NaveAerea_Caza.cpp">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalagaUSFX_LAB06\NaveAerea_Caza.h">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalagaUSFX_LAB06\NaveAerea_Transporte.cpp">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalagaUSFX_LAB06\NaveAerea_Transporte.h">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalagaUSFX_LAB06\NaveEnemiga.cpp">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalagaUSFX_LAB06\NaveEnemiga.h">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalagaUSFX_LAB06\NaveEnemigaBombardero.cpp">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalagaUSFX_LAB06\NaveEnemigaBombardero.h">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalagaUSFX_LAB06\NaveEnemigaCaza.cpp">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalagaUSFX_LAB06\NaveEnemigaCaza.h">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalagaUSFX_LAB06\NaveEnemigaEspia.cpp">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalagaUSFX_LAB06\NaveEnemigaEspia.h">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalagaUSFX_LAB06\NaveEnemigaTransporte.cpp">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalagaUSFX_LAB06\NaveEnemigaTransporte.h">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
