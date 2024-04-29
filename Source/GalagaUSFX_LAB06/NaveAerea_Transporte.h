@@ -25,6 +25,6 @@ public:
 	virtual void Mover(float DeltaTime);
 protected:
 	// Velocidad en el eje Y
-	UPROPERTY(EditAnywhere, Category = "Velocidad Nave Aerea Caza")
-	float VelocidadXCaza;
+	UPROPERTY(EditAnywhere, Category = "Velocidad Nave Aerea Transporte")
+	float VelocidadXTransporte;
 };

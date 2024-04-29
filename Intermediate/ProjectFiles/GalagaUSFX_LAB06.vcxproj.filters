@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GalagaUSFX_LAB06.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{BE25005C-D4FC-455C-B271-0C559B5B3C92}</UniqueIdentifier>
+      <UniqueIdentifier>{C9A0FE11-EE03-4064-9C55-20738E4FC825}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GalagaUSFX_LAB06.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{CFC37B28-0975-4B08-8A77-DB1D71EF2019}</UniqueIdentifier>
+      <UniqueIdentifier>{860EAF1D-0EA9-4699-9DC6-8F5B23CA796E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GalagaUSFX_LAB06">
-      <UniqueIdentifier>{A350A72D-9311-4032-9A87-99DE1BE6E4BE}</UniqueIdentifier>
+      <UniqueIdentifier>{9A5B7A49-AFE2-45C9-B5C2-8E706CE8546D}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GalagaUSFX_LAB06\CreadorNaves.cpp">
       <Filter>Source\GalagaUSFX_LAB06</Filter>
@@ -91,6 +91,18 @@
     <ClInclude Include="..\..\Source\GalagaUSFX_LAB06\GalagaUSFX_LAB06Projectile.h">
       <Filter>Source\GalagaUSFX_LAB06</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\GalagaUSFX_LAB06\NaveAcuatica_Espia.cpp">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalagaUSFX_LAB06\NaveAcuatica_Espia.h">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalagaUSFX_LAB06\NaveAcuatica_Exploracion.cpp">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalagaUSFX_LAB06\NaveAcuatica_Exploracion.h">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\GalagaUSFX_LAB06\NaveAerea_Caza.cpp">
       <Filter>Source\GalagaUSFX_LAB06</Filter>
     </ClCompile>
@@ -131,6 +143,12 @@
       <Filter>Source\GalagaUSFX_LAB06</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\GalagaUSFX_LAB06\NaveEnemigaTransporte.h">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GalagaUSFX_LAB06\NaveTerrestre_Artilleria.cpp">
+      <Filter>Source\GalagaUSFX_LAB06</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GalagaUSFX_LAB06\NaveTerrestre_Artilleria.h">
       <Filter>Source\GalagaUSFX_LAB06</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\GalagaUSFX_LAB06\NaveTerrestre_Transporte.cpp">

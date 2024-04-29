@@ -14,7 +14,7 @@ ANaveTerrestre_Transporte::ANaveTerrestre_Transporte()
 	mallaNaveEnemiga->SetStaticMesh(malla.Object);
 
 	NombreNave = "NaveTerrestre_Transporte"; //Nombre de la nave
-	VelocidadYCaza = -400.0f;
+	VelocidadYTransporte = -400.0f;
 }
 
 void ANaveTerrestre_Transporte::Tick(float DeltaTime)

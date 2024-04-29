@@ -20,10 +20,10 @@ public:
 	//Constructor
 	ANaveTerrestre_Transporte();
 	virtual void Tick(float DeltaTime) override;
-//public:
-//	virtual void Mover(float DeltaTime);
+	//public:
+	//	virtual void Mover(float DeltaTime);
 protected:
 	// Velocidad en el eje Y
-	UPROPERTY(EditAnywhere, Category = "Velocidad Nave Aerea Caza")
-	float VelocidadYCaza;
+	UPROPERTY(EditAnywhere, Category = "Velocidad Nave Terrestre Transporte")
+	float VelocidadYTransporte;
 };

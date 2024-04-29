@@ -11,3 +11,7 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\GalagaUSFX_LAB06GameMode.generated.h
 C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\CreadorNaves.generated.h
 C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\CreadorNavesAcuaticas.generated.h
+C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Source\GalagaUSFX_LAB06\NaveAcuatica_Exploracion.h
+C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\NaveAcuatica_Exploracion.generated.h
+C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Source\GalagaUSFX_LAB06\NaveAcuatica_Espia.h
+C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\NaveAcuatica_Espia.generated.h

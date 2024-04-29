@@ -59,7 +59,7 @@ public: \
 
 
 #define GalagaUSFX_Trabajo01_master_Source_GalagaUSFX_LAB06_NaveAerea_Transporte_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__VelocidadXCaza() { return STRUCT_OFFSET(ANaveAerea_Transporte, VelocidadXCaza); }
+	FORCEINLINE static uint32 __PPO__VelocidadXTransporte() { return STRUCT_OFFSET(ANaveAerea_Transporte, VelocidadXTransporte); }
 
 
 #define GalagaUSFX_Trabajo01_master_Source_GalagaUSFX_LAB06_NaveAerea_Transporte_h_12_PROLOG

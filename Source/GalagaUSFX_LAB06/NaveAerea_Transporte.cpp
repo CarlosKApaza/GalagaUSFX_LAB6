@@ -15,7 +15,7 @@ ANaveAerea_Transporte::ANaveAerea_Transporte()
 	mallaNaveEnemiga->SetStaticMesh(malla.Object);
 
 	NombreNave = "NaveAerea_Transporte"; //Nombre de la nave
-	VelocidadXCaza = -400.0f;
+	VelocidadXTransporte = -400.0f;
 }
 
 void ANaveAerea_Transporte::Tick(float DeltaTime)
@@ -33,18 +33,18 @@ void ANaveAerea_Transporte::Mover(float DeltaTime)
     float NuevaY = 0.0f; // No se mueve en el eje X
 
     // Calculamos la nueva posición en el eje Y
-    float NuevaPosicionX = PosicionActual.X + (VelocidadXCaza * DeltaTime);
+    float NuevaPosicionX = PosicionActual.X + (VelocidadXTransporte * DeltaTime);
 
     // Verificamos si la nave ha alcanzado el límite superior o inferior
     if (NuevaPosicionX <= -1950.0f)
     {
         // Cambiamos la dirección multiplicando por -1
-        VelocidadXCaza *= -1.0f;
+        VelocidadXTransporte *= -1.0f;
     }
     else if (NuevaPosicionX >= 1950.0f)
     {
         // Cambiamos la dirección multiplicando por -1
-        VelocidadXCaza *= -1.0f;
+        VelocidadXTransporte *= -1.0f;
     }
     // Establecemos la nueva posición del actor
     SetActorLocation(FVector(NuevaPosicionX, PosicionActual.Y + NuevaY, PosicionActual.Z));
