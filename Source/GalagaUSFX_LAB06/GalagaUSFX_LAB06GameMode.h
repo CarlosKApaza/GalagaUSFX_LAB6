@@ -29,8 +29,8 @@ UPROPERTY()
 public:
 
 	FTimerHandle FTHMostrarClaves;
-	void MostrarClavesNaves();
-	void OcultarClavesNaves();
+	void MostrarClavesNaves(); //Funcion para mostrar las claves de las naves
+	void OcultarClavesNaves(); //Funcion para ocultar las claves de las naves
 };
 
 

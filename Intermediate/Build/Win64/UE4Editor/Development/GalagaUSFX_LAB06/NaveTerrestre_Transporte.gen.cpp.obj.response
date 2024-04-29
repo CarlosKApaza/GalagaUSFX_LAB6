@@ -13,13 +13,16 @@
 /source-charset:utf-8
 /execution-charset:utf-8
 /Ob2
-/Od
+/Ox
+/Ot
+/GF
 /errorReport:prompt
 /EHsc
 /Z7
 /MD
 /bigobj
 /fp:fast
+/Zo
 /Zp8
 /we4456
 /we4458
@@ -259,12 +262,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/FI"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\GalagaUSFX_LAB06Editor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.h"
-/Yu"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\GalagaUSFX_LAB06Editor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.h"
-/Fp"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\GalagaUSFX_LAB06Editor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.h.pch"
-"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Source\GalagaUSFX_LAB06\NaveAerea_Transporte.cpp"
-/FI"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\DebugGame\GalagaUSFX_LAB06\Definitions.GalagaUSFX_LAB06.h"
-/Fo"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\DebugGame\GalagaUSFX_LAB06\NaveAerea_Transporte.cpp.obj"
+/FI"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\GalagaUSFX_LAB06Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\GalagaUSFX_LAB06Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\GalagaUSFX_LAB06Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\NaveTerrestre_Transporte.gen.cpp"
+/FI"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\Definitions.GalagaUSFX_LAB06.h"
+/Fo"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\NaveTerrestre_Transporte.gen.cpp.obj"
 /TP
 /GR-
 /W4

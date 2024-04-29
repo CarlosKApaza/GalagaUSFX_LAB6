@@ -35,7 +35,7 @@ void AGalagaUSFX_LAB06GameMode::BeginPlay()
 	ACreadorNaves* CreadorNavesAereas = GetWorld()->SpawnActor<ACreadorNavesAereas>(ACreadorNavesAereas::StaticClass());
 
 	// LLamando a la fabrica de naves terrestres
-	ACreadorNaves* CreadorNavesTerrestres = GetWorld()->SpawnActor<ACreadorNavesTerrestres>(ACreadorNavesTerrestres::StaticClass());
+	//ACreadorNaves* CreadorNavesTerrestres = GetWorld()->SpawnActor<ACreadorNavesTerrestres>(ACreadorNavesTerrestres::StaticClass());
 
 	// Definiendo las posiciones de las naves enemigas
 	FVector	PosicionNaveInicial = FVector(-600.0f, 0.0f, 200.0f); // Posicion inicial de las naves enemigas
@@ -120,7 +120,7 @@ void AGalagaUSFX_LAB06GameMode::BeginPlay()
 		// Creamos 7 naves de la clase NaveAerea_Transporte
 		for (int i = 0; i < 7; i++)
 		{
-			ANaveEnemiga* NaveEnemiga = CreadorNavesTerrestres->OrdenarNave("NaveAerea_Transporte", PosicionNaveInicial);
+			ANaveEnemiga* NaveEnemiga = CreadorNavesAereas->OrdenarNave("NaveAerea_Transporte", PosicionNaveInicial);
 			NaveEnemiga->idClaveNave = ClaveNaves++; // Asignar la clave y luego incrementar
 			TMAPocionesNavesEnemigas.Add(NaveEnemiga, ClaveNaves);
 			TANavesEnemigas.Add(NaveEnemiga); // agregamos la nave a la lista de naves enemigas

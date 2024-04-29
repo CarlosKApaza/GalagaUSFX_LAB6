@@ -26,7 +26,6 @@ C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\I
 C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Source\GalagaUSFX_LAB06\CreadorNavesAereas.h
 C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\CreadorNavesAereas.generated.h
 C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Source\GalagaUSFX_LAB06\CreadorNavesTerrestres.h
-C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\CreadorNavesTerrestres.generated.h
 C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Source\GalagaUSFX_LAB06\NaveAerea_Caza.h
 C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\NaveAerea_Caza.generated.h
 C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Source\GalagaUSFX_LAB06\NaveAerea_Transporte.h
