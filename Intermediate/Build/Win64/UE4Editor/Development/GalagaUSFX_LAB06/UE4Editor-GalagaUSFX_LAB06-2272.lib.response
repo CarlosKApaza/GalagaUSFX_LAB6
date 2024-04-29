@@ -1,0 +1,43 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-GalagaUSFX_LAB06-2272.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\GalagaUSFX_LAB06Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\CreadorNaves.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\CreadorNavesAcuaticas.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\CreadorNavesAereas.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\CreadorNavesEnemigas.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\CreadorNavesTerrestres.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\GalagaUSFX_LAB06.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\GalagaUSFX_LAB06GameMode.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\GalagaUSFX_LAB06Pawn.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\GalagaUSFX_LAB06Projectile.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\NaveAerea_Caza.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\NaveAerea_Transporte.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\NaveEnemiga.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\NaveEnemigaBombardero.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\NaveEnemigaCaza.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\NaveEnemigaEspia.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\NaveEnemigaTransporte.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\CreadorNaves.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\CreadorNavesAcuaticas.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\CreadorNavesAereas.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\CreadorNavesEnemigas.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\CreadorNavesTerrestres.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\GalagaUSFX_LAB06.init.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\GalagaUSFX_LAB06GameMode.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\GalagaUSFX_LAB06Pawn.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\GalagaUSFX_LAB06Projectile.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\NaveAerea_Caza.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\NaveAerea_Transporte.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\NaveEnemiga.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\NaveEnemigaBombardero.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\NaveEnemigaCaza.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\NaveEnemigaEspia.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\NaveEnemigaTransporte.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\Default.rc2.res"
+/OUT:"C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Development\GalagaUSFX_LAB06\UE4Editor-GalagaUSFX_LAB06-2272.lib"

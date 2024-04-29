@@ -3,6 +3,8 @@
 
 #include "CreadorNaves.h"
 
+#include "GalagaUSFX_LAB06GameMode.h"
+
 // Sets default values
 ACreadorNaves::ACreadorNaves()
 {
@@ -29,9 +31,8 @@ ANaveEnemiga* ACreadorNaves::OrdenarNave(FString Categotia, FVector UbicacionNav
 {
 	// Crea la nave y registra su nombre
 	ANaveEnemiga* NaveEnemiga = CrearNaveEnemiga(Categotia, UbicacionNaveOrden);
-	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Creando %s"), *NaveEnemiga->GetNombreNave()));
+	//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Creando %s"), *NaveEnemiga->GetNombreNave()));
 
 	// Retorna la nave creada
 	return NaveEnemiga;
 }
-

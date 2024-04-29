@@ -17,7 +17,7 @@ public:
 	ANaveEnemiga();
 
 public:
-	int clave; //clave para identificar la nave
+	int idClaveNave; //clave para identificar la nave
 protected:
 	FString NombreNave;
 	//UPROPERTY(EditAnywhere)

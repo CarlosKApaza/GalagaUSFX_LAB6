@@ -22,8 +22,15 @@ protected:
 
 public:
 	TArray<ANaveEnemiga*> TANavesEnemigas; //Array de Naves Enemigas
-//UPROPERTY()
-//	TMap<ANaveEnemiga*, FVector> TAPocionesNavesEnemigas; //Mapa de Naves Enemigas
+UPROPERTY()
+	TMap<ANaveEnemiga*, int> TMAPocionesNavesEnemigas; //Mapa de Naves Enemigas
+	//TMap<ANaveEnemiga*, 
+
+public:
+
+	FTimerHandle FTHMostrarClaves;
+	void MostrarClavesNaves();
+	void OcultarClavesNaves();
 };
 
 

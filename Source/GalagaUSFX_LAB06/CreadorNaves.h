@@ -33,4 +33,6 @@ public:
 
 		//Ordena, crea y retorna una pocion de una categoria especifica
 		ANaveEnemiga* OrdenarNave(FString Categoria, FVector UbicacionNaveOrden);
+
+
 };
