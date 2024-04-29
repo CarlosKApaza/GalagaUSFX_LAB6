@@ -58,7 +58,10 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ANaveAerea_Caza)
 
 
-#define GalagaUSFX_Trabajo01_master_Source_GalagaUSFX_LAB06_NaveAerea_Caza_h_15_PRIVATE_PROPERTY_OFFSET
+#define GalagaUSFX_Trabajo01_master_Source_GalagaUSFX_LAB06_NaveAerea_Caza_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__VelocidadXCaza() { return STRUCT_OFFSET(ANaveAerea_Caza, VelocidadXCaza); }
+
+
 #define GalagaUSFX_Trabajo01_master_Source_GalagaUSFX_LAB06_NaveAerea_Caza_h_12_PROLOG
 #define GalagaUSFX_Trabajo01_master_Source_GalagaUSFX_LAB06_NaveAerea_Caza_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

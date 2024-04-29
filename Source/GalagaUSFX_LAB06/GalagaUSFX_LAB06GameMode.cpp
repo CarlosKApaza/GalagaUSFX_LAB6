@@ -39,6 +39,7 @@ void AGalagaUSFX_LAB06GameMode::BeginPlay()
 
 	// Definiendo las posiciones de las naves enemigas
 	FVector	PosicionNaveInicial = FVector(-600.0f, 0.0f, 200.0f); // Posicion inicial de las naves enemigas
+
 	int ClaveNaves = 0; // clave para las naves enemigas
 
 	UWorld * World = GetWorld();
@@ -114,7 +115,7 @@ void AGalagaUSFX_LAB06GameMode::BeginPlay()
 		PosicionNaveInicial.Y = PosicionNaveInicial.Y = -1400.0f; // actualizo la creacion de la nave enemiga bombardero
 		//PosicionNaveInicial.Z += -250.0f; // actualizo la creacion de la nave enemiga bombardero
 
-		ClaveNaves += 0; // 
+		//ClaveNaves += 0; // 
 
 		// Creamos 7 naves de la clase NaveAerea_Transporte
 		for (int i = 0; i < 7; i++)
@@ -155,5 +156,7 @@ void AGalagaUSFX_LAB06GameMode::OcultarClavesNaves()
 	// Limpia los mensajes en pantalla
 	GEngine->ClearOnScreenDebugMessages();
 }
+
+
 
 

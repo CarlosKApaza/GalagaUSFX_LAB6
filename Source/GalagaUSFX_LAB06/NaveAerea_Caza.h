@@ -20,4 +20,12 @@ protected:
 public:
 	ANaveAerea_Caza(); // constructor que nos va a permitir inicializar los valores de la nave y darle una apariencia
 	virtual void Tick(float DeltaTime) override;
+
+public:
+	virtual void Mover(float DeltaTime);
+
+protected:
+	// Velocidad en el eje Y
+	UPROPERTY(EditAnywhere, Category = "Velocidad Nave Aerea Caza")
+	float VelocidadXCaza;
 };

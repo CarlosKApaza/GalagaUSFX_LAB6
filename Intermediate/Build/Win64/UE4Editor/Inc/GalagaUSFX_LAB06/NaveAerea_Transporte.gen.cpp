@@ -31,6 +31,11 @@ void EmptyLinkFunctionForGeneratedCodeNaveAerea_Transporte() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_VelocidadXCaza_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_VelocidadXCaza;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +50,18 @@ void EmptyLinkFunctionForGeneratedCodeNaveAerea_Transporte() {}
 		{ "ModuleRelativePath", "NaveAerea_Transporte.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANaveAerea_Transporte_Statics::NewProp_VelocidadXCaza_MetaData[] = {
+		{ "Category", "Velocidad Nave Aerea Caza" },
+		{ "Comment", "// Velocidad en el eje Y\n" },
+		{ "ModuleRelativePath", "NaveAerea_Transporte.h" },
+		{ "ToolTip", "Velocidad en el eje Y" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANaveAerea_Transporte_Statics::NewProp_VelocidadXCaza = { "VelocidadXCaza", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANaveAerea_Transporte, VelocidadXCaza), METADATA_PARAMS(Z_Construct_UClass_ANaveAerea_Transporte_Statics::NewProp_VelocidadXCaza_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANaveAerea_Transporte_Statics::NewProp_VelocidadXCaza_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANaveAerea_Transporte_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANaveAerea_Transporte_Statics::NewProp_VelocidadXCaza,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ANaveAerea_Transporte_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ANaveAerea_Transporte>::IsAbstract,
 	};
@@ -54,11 +71,11 @@ void EmptyLinkFunctionForGeneratedCodeNaveAerea_Transporte() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_ANaveAerea_Transporte_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ANaveAerea_Transporte_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ANaveAerea_Transporte_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ANaveAerea_Transporte_Statics::Class_MetaDataParams))
@@ -72,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeNaveAerea_Transporte() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANaveAerea_Transporte, 3212807006);
+	IMPLEMENT_CLASS(ANaveAerea_Transporte, 2668614088);
 	template<> GALAGAUSFX_LAB06_API UClass* StaticClass<ANaveAerea_Transporte>()
 	{
 		return ANaveAerea_Transporte::StaticClass();

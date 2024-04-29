@@ -38,3 +38,5 @@ FString ANaveEnemiga::GetNombreNave()
 	//Retorna el nombre de la pocion
 	return NombreNave;
 }
+
+

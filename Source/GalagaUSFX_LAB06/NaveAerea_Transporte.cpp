@@ -6,6 +6,7 @@
 void ANaveAerea_Transporte::BeginPlay()
 {
 	Super::BeginPlay();
+    //aca implementamos en un futuro un temporizador para controlar el tiempo de movimiento de la nave
 }
 
 ANaveAerea_Transporte::ANaveAerea_Transporte()
@@ -14,9 +15,39 @@ ANaveAerea_Transporte::ANaveAerea_Transporte()
 	mallaNaveEnemiga->SetStaticMesh(malla.Object);
 
 	NombreNave = "NaveAerea_Transporte"; //Nombre de la nave
+	VelocidadXCaza = -400.0f;
 }
 
 void ANaveAerea_Transporte::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	Mover(DeltaTime);
 }
+
+void ANaveAerea_Transporte::Mover(float DeltaTime)
+{
+    //Obtenemos la posición actual del actor
+    FVector PosicionActual = GetActorLocation();
+
+    // Generamos nuevas coordenadas X e Y aleatorias
+    float NuevaY = 0.0f; // No se mueve en el eje X
+
+    // Calculamos la nueva posición en el eje Y
+    float NuevaPosicionX = PosicionActual.X + (VelocidadXCaza * DeltaTime);
+
+    // Verificamos si la nave ha alcanzado el límite superior o inferior
+    if (NuevaPosicionX <= -1950.0f)
+    {
+        // Cambiamos la dirección multiplicando por -1
+        VelocidadXCaza *= -1.0f;
+    }
+    else if (NuevaPosicionX >= 1950.0f)
+    {
+        // Cambiamos la dirección multiplicando por -1
+        VelocidadXCaza *= -1.0f;
+    }
+    // Establecemos la nueva posición del actor
+    SetActorLocation(FVector(NuevaPosicionX, PosicionActual.Y + NuevaY, PosicionActual.Z));
+}
+
+

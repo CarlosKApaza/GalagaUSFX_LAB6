@@ -37,7 +37,8 @@ public:
 	virtual void Construir() PURE_VIRTUAL(ANaveEnemiga::Construir, );
 	virtual void ActivarSistemas() PURE_VIRTUAL(ANaveEnemiga::ActivarSistemas, );
 
-	void Mover() PURE_VIRTUAL(ANaveEnemiga::Mover, );
+
+	void Mover(float DeltaTime) PURE_VIRTUAL(ANaveEnemiga::Mover, );
 	
 	// Devolver el nombre de la nave
 	FString GetNombreNave();
