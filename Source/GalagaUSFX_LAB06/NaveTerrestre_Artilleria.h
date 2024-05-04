@@ -16,14 +16,17 @@ class GALAGAUSFX_LAB06_API ANaveTerrestre_Artilleria : public ANaveEnemiga
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
 public:
 	//Constructor
 	ANaveTerrestre_Artilleria();
 	virtual void Tick(float DeltaTime) override;
-	//public:
-	//	virtual void Mover(float DeltaTime);
+
+	public:
+		virtual void Mover(float DeltaTime);
 protected:
 	// Velocidad en el eje Y
 	UPROPERTY(EditAnywhere, Category = "Velocidad Nave Terrestre Artilleria")
 	float VelocidadYArtilleria;
+	float VelocidadXArtilleria;
 };

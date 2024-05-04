@@ -32,9 +32,9 @@ void EmptyLinkFunctionForGeneratedCodeNaveAerea_Caza() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_VelocidadXCaza_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_VelocidadYCaza_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_VelocidadXCaza;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_VelocidadYCaza;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -51,16 +51,16 @@ void EmptyLinkFunctionForGeneratedCodeNaveAerea_Caza() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANaveAerea_Caza_Statics::NewProp_VelocidadXCaza_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANaveAerea_Caza_Statics::NewProp_VelocidadYCaza_MetaData[] = {
 		{ "Category", "Velocidad Nave Aerea Caza" },
 		{ "Comment", "// Velocidad en el eje Y\n" },
 		{ "ModuleRelativePath", "NaveAerea_Caza.h" },
 		{ "ToolTip", "Velocidad en el eje Y" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANaveAerea_Caza_Statics::NewProp_VelocidadXCaza = { "VelocidadXCaza", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANaveAerea_Caza, VelocidadXCaza), METADATA_PARAMS(Z_Construct_UClass_ANaveAerea_Caza_Statics::NewProp_VelocidadXCaza_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANaveAerea_Caza_Statics::NewProp_VelocidadXCaza_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANaveAerea_Caza_Statics::NewProp_VelocidadYCaza = { "VelocidadYCaza", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANaveAerea_Caza, VelocidadYCaza), METADATA_PARAMS(Z_Construct_UClass_ANaveAerea_Caza_Statics::NewProp_VelocidadYCaza_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANaveAerea_Caza_Statics::NewProp_VelocidadYCaza_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANaveAerea_Caza_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANaveAerea_Caza_Statics::NewProp_VelocidadXCaza,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANaveAerea_Caza_Statics::NewProp_VelocidadYCaza,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ANaveAerea_Caza_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ANaveAerea_Caza>::IsAbstract,
@@ -89,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeNaveAerea_Caza() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANaveAerea_Caza, 3965539352);
+	IMPLEMENT_CLASS(ANaveAerea_Caza, 3761343740);
 	template<> GALAGAUSFX_LAB06_API UClass* StaticClass<ANaveAerea_Caza>()
 	{
 		return ANaveAerea_Caza::StaticClass();

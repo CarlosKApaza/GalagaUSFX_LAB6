@@ -21,8 +21,8 @@ public:
 	//Constructor
 	ANaveAcuatica_Exploracion();
 	virtual void Tick(float DeltaTime) override;
-	//public:
-	//	virtual void Mover(float DeltaTime);
+	public:
+		virtual void Mover(float DeltaTime);
 protected:
 	// Velocidad en el eje Y
 	UPROPERTY(EditAnywhere, Category = "Velocidad Nave Acuatica Exploracion")

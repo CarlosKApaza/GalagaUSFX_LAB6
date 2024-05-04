@@ -15,7 +15,11 @@ ANaveAerea_Transporte::ANaveAerea_Transporte()
 	mallaNaveEnemiga->SetStaticMesh(malla.Object);
 
 	NombreNave = "NaveAerea_Transporte"; //Nombre de la nave
-	VelocidadXTransporte = -400.0f;
+	VelocidadYTransporte = -250.0f;
+
+	//Vida de la Nave Transporte
+	energia = 50; // Inicializar la energia que tendra la nave
+	resistencia = 30; // Inicializar la resistencia que tendra la nave
 }
 
 void ANaveAerea_Transporte::Tick(float DeltaTime)
@@ -30,24 +34,35 @@ void ANaveAerea_Transporte::Mover(float DeltaTime)
     FVector PosicionActual = GetActorLocation();
 
     // Generamos nuevas coordenadas X e Y aleatorias
-    float NuevaY = 0.0f; // No se mueve en el eje X
+    float NuevaX = 0.0f; // No se mueve en el eje X
 
     // Calculamos la nueva posición en el eje Y
-    float NuevaPosicionX = PosicionActual.X + (VelocidadXTransporte * DeltaTime);
+    float NuevaPosicionY = PosicionActual.Y + (VelocidadYTransporte * DeltaTime);
 
     // Verificamos si la nave ha alcanzado el límite superior o inferior
-    if (NuevaPosicionX <= -1950.0f)
+    if (NuevaPosicionY <= -1950.0f)
     {
         // Cambiamos la dirección multiplicando por -1
-        VelocidadXTransporte *= -1.0f;
+        VelocidadYTransporte *= -1.0f;
     }
-    else if (NuevaPosicionX >= 1950.0f)
+    else if (NuevaPosicionY >= 1950.0f)
     {
         // Cambiamos la dirección multiplicando por -1
-        VelocidadXTransporte *= -1.0f;
+        VelocidadYTransporte *= -1.0f;
     }
     // Establecemos la nueva posición del actor
-    SetActorLocation(FVector(NuevaPosicionX, PosicionActual.Y + NuevaY, PosicionActual.Z));
+    SetActorLocation(FVector(PosicionActual.X + NuevaX, NuevaPosicionY, PosicionActual.Z));
 }
 
+void ANaveAerea_Transporte::RecibirDanio(float dano)
+{
+    // Restamos la energia de la nave
+    energia -= dano;
 
+    // Verificamos si la nave ha sido destruida
+    if (energia <= 0)
+    {
+        // Destruimos la nave
+        Destroy();
+    }
+}

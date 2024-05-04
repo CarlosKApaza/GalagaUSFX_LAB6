@@ -2,11 +2,11 @@
 
 
 #include "NaveTerrestre_Artilleria.h"
+#include "TimerManager.h"
 
 void ANaveTerrestre_Artilleria::BeginPlay()
 {
 	Super::BeginPlay();
-
 }
 
 ANaveTerrestre_Artilleria::ANaveTerrestre_Artilleria()
@@ -15,10 +15,35 @@ ANaveTerrestre_Artilleria::ANaveTerrestre_Artilleria()
 	mallaNaveEnemiga->SetStaticMesh(malla.Object);
 
 	NombreNave = "NaveTerrestre_Artilleria"; //Nombre de la nave
-	VelocidadYArtilleria = -400.0f;
+	VelocidadYArtilleria = 350.0f;
+	/*VelocidadXArtilleria = 0.0f;*/
 }
 
 void ANaveTerrestre_Artilleria::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	Mover(DeltaTime);
 }
+
+void ANaveTerrestre_Artilleria::Mover(float DeltaTime)
+{
+	//Obtenemos la posición actual del actor
+	FVector PosicionActual = GetActorLocation();
+
+	// Generamos nuevas coordenadas X e Y aleatorias
+	float NuevaX = 0.0f; // No se mueve en el eje X
+	// Calculamos la nueva posición en el eje Y
+	float MovimientoY = PosicionActual.Y + (VelocidadYArtilleria * DeltaTime);
+
+	// Verificamos si la nave ha alcanzado el límite superior o inferior en el eje Y
+	if (MovimientoY >= 1100.0f || MovimientoY  <= -1100.0f)
+	{
+		// Cambiamos la dirección multiplicando por -1
+		VelocidadYArtilleria *= -1.0f;
+	}
+	// Establecemos la nueva posición del actor
+	SetActorLocation(FVector(PosicionActual.X + NuevaX, MovimientoY, PosicionActual.Z));
+
+ 
+}
+

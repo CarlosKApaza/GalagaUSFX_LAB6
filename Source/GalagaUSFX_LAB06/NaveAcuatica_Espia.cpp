@@ -20,5 +20,30 @@ ANaveAcuatica_Espia::ANaveAcuatica_Espia()
 void ANaveAcuatica_Espia::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	/*Mover(DeltaTime);*/
+	Mover(DeltaTime);
+}
+
+void ANaveAcuatica_Espia::Mover(float DeltaTime)
+{
+	//Obtenemos la posicion actual del Actor
+	FVector PosicionActual = GetActorLocation();
+
+	// Damos un valor a X 
+	float NuevaX = 0.0f;
+
+	// Calculamos el movimiento para Y 
+	float MovimientoY = PosicionActual.Y + (VelocidadYEspia * DeltaTime);
+
+	//Verificamos si la posicion alcanza el limite supeior e inferior 
+
+	if (MovimientoY <= -1500.0f)
+	{
+		VelocidadYEspia *= -1.1;
+	}
+	else if (MovimientoY >= 1500.0f)
+	{
+		VelocidadYEspia *= -1;
+	}
+	//  Establecemos la nueva posicion del actor
+	SetActorLocation(FVector(PosicionActual.X + NuevaX, MovimientoY, PosicionActual.Z));
 }

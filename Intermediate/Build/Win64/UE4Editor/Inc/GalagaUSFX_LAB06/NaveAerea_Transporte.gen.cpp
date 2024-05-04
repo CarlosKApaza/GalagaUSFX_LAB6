@@ -32,9 +32,9 @@ void EmptyLinkFunctionForGeneratedCodeNaveAerea_Transporte() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_VelocidadXTransporte_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_VelocidadYTransporte_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_VelocidadXTransporte;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_VelocidadYTransporte;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -51,16 +51,16 @@ void EmptyLinkFunctionForGeneratedCodeNaveAerea_Transporte() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANaveAerea_Transporte_Statics::NewProp_VelocidadXTransporte_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANaveAerea_Transporte_Statics::NewProp_VelocidadYTransporte_MetaData[] = {
 		{ "Category", "Velocidad Nave Aerea Transporte" },
 		{ "Comment", "// Velocidad en el eje Y\n" },
 		{ "ModuleRelativePath", "NaveAerea_Transporte.h" },
 		{ "ToolTip", "Velocidad en el eje Y" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANaveAerea_Transporte_Statics::NewProp_VelocidadXTransporte = { "VelocidadXTransporte", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANaveAerea_Transporte, VelocidadXTransporte), METADATA_PARAMS(Z_Construct_UClass_ANaveAerea_Transporte_Statics::NewProp_VelocidadXTransporte_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANaveAerea_Transporte_Statics::NewProp_VelocidadXTransporte_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANaveAerea_Transporte_Statics::NewProp_VelocidadYTransporte = { "VelocidadYTransporte", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANaveAerea_Transporte, VelocidadYTransporte), METADATA_PARAMS(Z_Construct_UClass_ANaveAerea_Transporte_Statics::NewProp_VelocidadYTransporte_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANaveAerea_Transporte_Statics::NewProp_VelocidadYTransporte_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANaveAerea_Transporte_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANaveAerea_Transporte_Statics::NewProp_VelocidadXTransporte,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANaveAerea_Transporte_Statics::NewProp_VelocidadYTransporte,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ANaveAerea_Transporte_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ANaveAerea_Transporte>::IsAbstract,
@@ -89,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeNaveAerea_Transporte() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANaveAerea_Transporte, 1060773962);
+	IMPLEMENT_CLASS(ANaveAerea_Transporte, 861272518);
 	template<> GALAGAUSFX_LAB06_API UClass* StaticClass<ANaveAerea_Transporte>()
 	{
 		return ANaveAerea_Transporte::StaticClass();

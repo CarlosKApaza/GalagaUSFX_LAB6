@@ -33,6 +33,11 @@ void ANaveEnemiga::Tick(float DeltaTime)
 
 }
 
+//void ANaveEnemiga::RecibirDanio(float dano)
+//{
+//
+//}
+
 FString ANaveEnemiga::GetNombreNave()
 {
 	//Retorna el nombre de la pocion
