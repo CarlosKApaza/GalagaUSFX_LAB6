@@ -33,17 +33,19 @@ UPROPERTY()
 
 public:
 
-	FTimerHandle FTHMostrarClaves;
+	FTimerHandle FTHMostrarClaves; //Timer para mostrar las claves de las naves
 
 
-	FTimerHandle FTHEliminarEnemigosAleatorios;
-	FTimerHandle FTHCrearEnemigosAleatorios;
+	FTimerHandle FTHEliminarEnemigosAleatorios; //Timer para eliminar enemigos aleatoriamente
+	FTimerHandle FTHCrearEnemigosAleatorios; //Timer para crear enemigos aleatoriamente
+
+
 	void MostrarClavesNaves(); //Funcion para mostrar las claves de las naves
 	void OcultarClavesNaves(); //Funcion para ocultar las claves de las naves
 
 
 
-	void EliminarEnemigosAleatoriamente(); //Funcion para eliminar enemigos aleatoriamente
+	//void EliminarEnemigosAleatoriamente(); //Funcion para eliminar enemigos aleatoriamente
 	void CrearEnemigosAleatoriamente(TArray<FString> TiposNaves, FVector PosicionInicial, float EspacioEntreNavesY, int CantidadNaves); //Funcion para crear enemigos aleatoriamente
 	void CrearEnemigos(); //Funcion para crear enemigos de un tipo especifico
 
