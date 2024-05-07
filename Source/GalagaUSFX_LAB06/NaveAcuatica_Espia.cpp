@@ -15,6 +15,10 @@ ANaveAcuatica_Espia::ANaveAcuatica_Espia()
 
 	NombreNave = "NaveAcuatica_Espia"; //Nombre de la nave
 	VelocidadYEspia = -200.0f;
+
+	//VIDA DE LA NAVE 
+	energia = 50; // Inicializar la energia que tendra la nave
+	resistencia = 30; // Inicializar la resistencia que tendra la nave
 }
 
 void ANaveAcuatica_Espia::Tick(float DeltaTime)

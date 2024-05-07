@@ -18,7 +18,7 @@ ANaveAerea_Transporte::ANaveAerea_Transporte()
 	VelocidadYTransporte = -250.0f;
 
 	//Vida de la Nave Transporte
-	energia = 50; // Inicializar la energia que tendra la nave
+	energia = 10; // Inicializar la energia que tendra la nave
 	resistencia = 30; // Inicializar la resistencia que tendra la nave
 }
 

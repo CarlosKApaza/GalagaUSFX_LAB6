@@ -54,6 +54,7 @@ void AGalagaUSFX_LAB06Projectile::OnHit(UPrimitiveComponent* HitComp, AActor* Ot
 			// Reducir la energía de la nave enemiga
 			float const Cantidad = 10.0f; // Cantidad de daño que inflige la bala
 			NaveAereaCaza->RecibirDanio(Cantidad);
+			TANavesEnemigasEliminadas.Add(NaveAereaCaza);
 
 			// Eliminar la bala
 			if (GetOwner() != NULL)
@@ -62,7 +63,7 @@ void AGalagaUSFX_LAB06Projectile::OnHit(UPrimitiveComponent* HitComp, AActor* Ot
 			}
 
 			//// Eliminar la nave enemiga
-			//NaveAereaCaza->Destroy();
+			//NaveAereaCaza->Destroy(); // si activo esto se elimina la nave directamente
 		}
 		ANaveAerea_Transporte* NaveAereaTransporte = Cast<ANaveAerea_Transporte>(OtherActor);
 		if (NaveAereaTransporte)
@@ -71,6 +72,7 @@ void AGalagaUSFX_LAB06Projectile::OnHit(UPrimitiveComponent* HitComp, AActor* Ot
 			// Reducir la energía de la nave enemiga
 			float const Cantidad = 10.0f; // Cantidad de daño que inflige la bala
 			NaveAereaTransporte->RecibirDanio(Cantidad);
+			TANavesEnemigasEliminadas.Add(NaveAereaTransporte);
 
 			// Eliminar la bala
 			if (GetOwner() != NULL)
@@ -79,7 +81,7 @@ void AGalagaUSFX_LAB06Projectile::OnHit(UPrimitiveComponent* HitComp, AActor* Ot
 			}
 
 			//// Eliminar la nave enemiga
-			//NaveAereaTransporte->Destroy();
+			//NaveAereaTransporte->Destroy(); // si activo esto se elimina la nave directamente
 		}
 	}
 

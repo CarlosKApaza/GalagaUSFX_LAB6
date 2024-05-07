@@ -16,6 +16,10 @@ ANaveAcuatica_Exploracion::ANaveAcuatica_Exploracion()
 
 	NombreNave = "NaveAcuatica_Exploracion"; //Nombre de la nave
 	VelocidadYExploracion = -200.0f;
+
+	//VIDA DE LA NAVE 
+	energia = 50; // Inicializar la energia que tendra la nave
+	resistencia = 30; // Inicializar la resistencia que tendra la nave
 }
 
 void ANaveAcuatica_Exploracion::Tick(float DeltaTime)

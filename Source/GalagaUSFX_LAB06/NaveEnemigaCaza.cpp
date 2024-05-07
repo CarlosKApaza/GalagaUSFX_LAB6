@@ -14,6 +14,10 @@ ANaveEnemigaCaza::ANaveEnemigaCaza()
 	mallaNaveEnemiga->SetStaticMesh(malla.Object);
 
 	NombreNave = "NaveEnemigaCaza"; //Nombre de la nave
+
+	//VIDA DE LA NAVE 
+	energia = 50; // Inicializar la energia que tendra la nave
+	resistencia = 30; // Inicializar la resistencia que tendra la nave
 }
 
 void ANaveEnemigaCaza::Tick(float DeltaTime)

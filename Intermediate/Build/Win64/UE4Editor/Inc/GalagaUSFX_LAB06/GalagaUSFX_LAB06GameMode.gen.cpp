@@ -32,12 +32,12 @@ void EmptyLinkFunctionForGeneratedCodeGalagaUSFX_LAB06GameMode() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_TMAPocionesNavesEnemigas_ValueProp;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TMAPocionesNavesEnemigas_Key_KeyProp;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_TMAClavesNavesEnemigas_ValueProp;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TMAClavesNavesEnemigas_Key_KeyProp;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TMAPocionesNavesEnemigas_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TMAClavesNavesEnemigas_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FMapPropertyParams NewProp_TMAPocionesNavesEnemigas;
+		static const UE4CodeGen_Private::FMapPropertyParams NewProp_TMAClavesNavesEnemigas;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -56,20 +56,20 @@ void EmptyLinkFunctionForGeneratedCodeGalagaUSFX_LAB06GameMode() {}
 		{ "ToolTip", "Forward Declaration" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMAPocionesNavesEnemigas_ValueProp = { "TMAPocionesNavesEnemigas", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, 1, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMAPocionesNavesEnemigas_Key_KeyProp = { "TMAPocionesNavesEnemigas_Key", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_ANaveEnemiga_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMAClavesNavesEnemigas_ValueProp = { "TMAClavesNavesEnemigas", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, 1, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMAClavesNavesEnemigas_Key_KeyProp = { "TMAClavesNavesEnemigas_Key", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_ANaveEnemiga_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMAPocionesNavesEnemigas_MetaData[] = {
-		{ "Comment", "//Array de Naves Enemigas\n" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMAClavesNavesEnemigas_MetaData[] = {
+		{ "Comment", "// clave para las naves enemigas\n" },
 		{ "ModuleRelativePath", "GalagaUSFX_LAB06GameMode.h" },
-		{ "ToolTip", "Array de Naves Enemigas" },
+		{ "ToolTip", "clave para las naves enemigas" },
 	};
 #endif
-	const UE4CodeGen_Private::FMapPropertyParams Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMAPocionesNavesEnemigas = { "TMAPocionesNavesEnemigas", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGalagaUSFX_LAB06GameMode, TMAPocionesNavesEnemigas), EMapPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMAPocionesNavesEnemigas_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMAPocionesNavesEnemigas_MetaData)) };
+	const UE4CodeGen_Private::FMapPropertyParams Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMAClavesNavesEnemigas = { "TMAClavesNavesEnemigas", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGalagaUSFX_LAB06GameMode, TMAClavesNavesEnemigas), EMapPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMAClavesNavesEnemigas_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMAClavesNavesEnemigas_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMAPocionesNavesEnemigas_ValueProp,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMAPocionesNavesEnemigas_Key_KeyProp,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMAPocionesNavesEnemigas,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMAClavesNavesEnemigas_ValueProp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMAClavesNavesEnemigas_Key_KeyProp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::NewProp_TMAClavesNavesEnemigas,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGalagaUSFX_LAB06GameMode_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AGalagaUSFX_LAB06GameMode>::IsAbstract,
@@ -98,7 +98,7 @@ void EmptyLinkFunctionForGeneratedCodeGalagaUSFX_LAB06GameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGalagaUSFX_LAB06GameMode, 3378782764);
+	IMPLEMENT_CLASS(AGalagaUSFX_LAB06GameMode, 2874055020);
 	template<> GALAGAUSFX_LAB06_API UClass* StaticClass<AGalagaUSFX_LAB06GameMode>()
 	{
 		return AGalagaUSFX_LAB06GameMode::StaticClass();

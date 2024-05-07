@@ -15,6 +15,10 @@ ANaveTerrestre_Transporte::ANaveTerrestre_Transporte()
 
 	NombreNave = "NaveTerrestre_Transporte"; //Nombre de la nave
 	VelocidadYTransporte = 350.0f;
+
+	//VIDA DE LA NAVE 
+	energia = 50; // Inicializar la energia que tendra la nave
+	resistencia = 30; // Inicializar la resistencia que tendra la nave
 }
 
 void ANaveTerrestre_Transporte::Tick(float DeltaTime)

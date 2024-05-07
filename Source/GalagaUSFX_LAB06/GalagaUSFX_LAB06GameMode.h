@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
+#include "GalagaUSFX_LAB06Projectile.h"
 #include "GalagaUSFX_LAB06GameMode.generated.h"
 
 class ANaveEnemiga; //Forward Declaration
@@ -22,15 +23,30 @@ protected:
 
 public:
 	TArray<ANaveEnemiga*> TANavesEnemigas; //Array de Naves Enemigas
+
+	int ClaveNaves = 0; // clave para las naves enemigas
+
 UPROPERTY()
-	TMap<ANaveEnemiga*, int> TMAPocionesNavesEnemigas; //Mapa de Naves Enemigas
+	TMap<ANaveEnemiga*, int> TMAClavesNavesEnemigas; //Mapa de Naves Enemigas
+	TMap<ANaveEnemiga*, FVector> TMANavesEnemigas; //Mapa de Naves Enemigas
 	//TMap<ANaveEnemiga*, 
 
 public:
 
 	FTimerHandle FTHMostrarClaves;
+
+
+	FTimerHandle FTHEliminarEnemigosAleatorios;
+	FTimerHandle FTHCrearEnemigosAleatorios;
 	void MostrarClavesNaves(); //Funcion para mostrar las claves de las naves
 	void OcultarClavesNaves(); //Funcion para ocultar las claves de las naves
+
+
+
+	void EliminarEnemigosAleatoriamente(); //Funcion para eliminar enemigos aleatoriamente
+	void CrearEnemigosAleatoriamente(TArray<FString> TiposNaves, FVector PosicionInicial, float EspacioEntreNavesY, int CantidadNaves); //Funcion para crear enemigos aleatoriamente
+	void CrearEnemigos(); //Funcion para crear enemigos de un tipo especifico
+
 };
 
 

@@ -19,7 +19,7 @@ ANaveAerea_Caza::ANaveAerea_Caza()
 	VelocidadYCaza = -250.0f;
 
     //VIDA DE LA NAVE 
-    energia = 50; // Inicializar la energia que tendra la nave
+    energia = 10; // Inicializar la energia que tendra la nave
 	resistencia = 30; // Inicializar la resistencia que tendra la nave
 
 }

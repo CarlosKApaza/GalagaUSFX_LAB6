@@ -8,6 +8,8 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFra
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Source\GalagaUSFX_LAB06\GalagaUSFX_LAB06Projectile.h
+C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\GalagaUSFX_LAB06Projectile.generated.h
 C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\GalagaUSFX_LAB06GameMode.generated.h
 C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\CreadorNaves.generated.h
 C:\SIS457 Mis repositorios\GalagaUSFX_LAB06-master\GalagaUSFX_Trabajo01-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\CreadorNavesAcuaticas.generated.h

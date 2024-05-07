@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "NaveEnemiga.h"
 #include "GalagaUSFX_LAB06Projectile.generated.h"
 
 class UProjectileMovementComponent;
@@ -33,5 +34,8 @@ public:
 	FORCEINLINE UStaticMeshComponent* GetProjectileMesh() const { return ProjectileMesh; }
 	/** Returns ProjectileMovement subobject **/
 	FORCEINLINE UProjectileMovementComponent* GetProjectileMovement() const { return ProjectileMovement; }
+
+public:
+	TArray<ANaveEnemiga* >TANavesEnemigasEliminadas; //Array de Naves Enemigas
 };
 
